@@ -1,19 +1,14 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2020": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 11
-    },
+  "extends": "airbnb-base",
+  "env": {
+     "es6": true,
+     "browser": true,
+     "jest": true
+  },
   "rules": {
     "no-plusplus": "off",
     "no-use-before-define": "off",
     "max-len": "off",
-    "no-undef": "off",
-    "no-unused-vars": "off",
     "import/extensions": "off",
     "no-restricted-syntax": [
       "error",
